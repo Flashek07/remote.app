@@ -1,0 +1,19 @@
+{
+  "name": "rtsp-to-mpeg-stream-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rtsp.js",
+  "scripts": {
+    "start": "node rtsp.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node install.js"
+  },
+  "author": "Fl@shek",
+  "license": "ISC",
+  "dependencies": {
+    "nconf": "^0.11.3",
+    "node-rtsp-stream": "0.0.9",
+    "node-windows": "^1.0.0-beta.5",
+    "ws": "^7.5.0"
+  }
+}

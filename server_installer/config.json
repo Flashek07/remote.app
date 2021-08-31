@@ -1,0 +1,16 @@
+{
+    "name": "brama",
+    "streamUrl": "rtsp://172.16.1.251:554/user=admin_password=master1_channel=1_stream=1.sdp?real_stream",
+    "wsPort": 9999,
+    "ffmpegOptions": {
+        
+        "-nostats": "",
+        "-r": 20,
+        "-loglevel": "quiet",
+        "-hide_banner": "",
+        "-s": "427:240",
+        "-b": 50000,
+        "-fflags": "nobuffer"
+        
+    }
+}
