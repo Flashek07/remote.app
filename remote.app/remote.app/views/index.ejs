@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Brama</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <meta name="viewport" content="width=device-width, initial-scale=0.8, maximum-scale=1.0, user-scalable=no" />
+    <script type="text/javascript" src="/public/javascripts/countdown.js"></script>
+    <script type="text/javascript" src="/public/javascripts//jsmpeg.min.js"></script>
+  </head>
+  <body>
+
+    <h1>Brama</h1>
+    <p>Witaj na stronie bramy.</p>
+    <p><%=message%></p>
+    <canvas id="cam"></canvas>
+    <script type="text/javascript">
+      player = new JSMpeg.Player('ws://172.16.1.249:9999', {
+        canvas: document.getElementById('cam')
+      })
+    </script>
+    <br>
+    <br>
+    <form method="post" action="/button1">
+      <button class="button" type="submit">Cała brama</button>
+    </form>
+    <br>
+    <br>
+    <div id="countdown"></div>
+    <canvas id="widthFix" width="427" height="1" style="border:1px solid #000000;"></canvas>
+  </body>
+</html>

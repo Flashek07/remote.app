@@ -1,0 +1,22 @@
+{
+  "name": "remote.app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "installsrv": "node ./install.js"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "express-async-handler": "^1.1.4",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "nconf": "^0.11.2",
+    "node-linux": "^0.1.7",
+    "node-rtsp-stream": "^0.0.9",
+    "onoff": "^6.0.3"
+  }
+}
